@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Kak! 🎂💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Hearts -->
+    <div class="hearts"></div>
+
+    <!-- MUSIC -->
+    <audio id="music" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Tombol Musik -->
+    <button id="musicBtn" onclick="toggleMusic()">
+        🎵 Putar Musik
+    </button>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-text">A SPECIAL DAY FOR YOU ✨</p>
+
+            <h1>
+                Happy Birthday
+                <span>Ayuk Amell! 💗</span>
+            </h1>
+
+            <p class="subtitle">
+                Hari ini adalah hari spesial untuk seseorang
+                yang sangat berarti.
+            </p>
+
+            <button class="start-btn" onclick="startBirthday()">
+                💝 Buka Kejutan
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <main id="birthdayContent">
+
+        <!-- FOTO -->
+        <section class="photo-section">
+
+            <p class="section-label">✨ THIS IS YOUR DAY ✨</p>
+
+            <h2>Happy Birthday, Ayuk Amell! 🎂</h2>
+
+            <div class="photo-frame">
+
+                <div class="sparkle sparkle1">✦</div>
+                <div class="sparkle sparkle2">✧</div>
+
+                <img src="foto.png" alt="Ayuk Amell">
+
+            </div>
+
+            <p class="photo-caption">
+                Senyum yang selalu bikin suasana jadi lebih indah 💕
+            </p>
+
+
+            <!-- VIDEO -->
+            <div class="video-section">
+
+                <div class="video-label">
+                    🎬 A LITTLE VIDEO FOR YOU ✨
+                </div>
+
+                <div class="video-frame">
+
+                    <div class="video-sparkle video-sparkle1">✦</div>
+                    <div class="video-sparkle video-sparkle2">✧</div>
+
+                    <video
+                        id="birthdayVideo"
+                        controls
+                        playsinline
+                        preload="metadata"
+                    >
+                        <source src="video.mp4" type="video/mp4">
+                        Browser kamu tidak mendukung pemutaran video.
+                    </video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- UCAPAN -->
+        <section class="message-section">
+
+            <div class="message-card">
+
+                <div class="card-icon">
+                    💌
+                </div>
+
+                <h2>
+                    Untuk Ayuk Sepupuku Yang Cantik
+                </h2>
+
+                <p>
+                    Selamat ulang tahun, Ayuk Amell! 🎂💗
+                </p>
+
+                <p>
+                    Semoga di hari yang spesial ini, Ayuk selalu
+                    diberikan kesehatan, kebahagiaan, dan banyak
+                    hal baik dalam hidup.
+                </p>
+
+                <p>
+                    Semoga semua impian dan harapan Ayuk bisa
+                    tercapai satu per satu. Tetap menjadi pribadi
+                    yang baik, kuat, dan selalu tersenyum.
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi Ayuk sepupu yang
+                    baik dan menyenangkan. Semoga tahun ini menjadi
+                    salah satu tahun terbaik dalam hidup ayuk. ✨
+                </p>
+
+                <p class="closing">
+                    Once again...<br>
+                    <strong>Happy Birthday, Ayuk Amell! 💗🎂</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- HARAPAN -->
+        <section class="wishes">
+
+            <p class="section-label">MY WISH FOR YOU</p>
+
+            <h2>Semoga...</h2>
+
+            <div class="wish-container">
+
+                <div class="wish">
+                    <span>🌷</span>
+                    <h3>Bahagia</h3>
+                    <p>
+                        Semoga selalu menemukan alasan
+                        untuk tersenyum setiap hari.
+                    </p>
+                </div>
+
+                <div class="wish">
+                    <span>✨</span>
+                    <h3>Sukses</h3>
+                    <p>
+                        Semoga semua impian dan cita-cita
+                        ayuk tercapai.
+                    </p>
+                </div>
+
+                <div class="wish">
+                    <span>💗</span>
+                    <h3>Sehat</h3>
+                    <p>
+                        Semoga selalu diberikan kesehatan
+                        dan umur yang panjang.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LAST MESSAGE -->
+        <section class="last-section">
+
+            <div class="last-card">
+
+                <div class="cake">
+                    🎂
+                </div>
+
+                <h2>
+                    Make a Wish! ✨
+                </h2>
+
+                <p>
+                    Tiup lilinnya dan buat satu harapan.
+                    Semoga harapan itu segera menjadi kenyataan. 💫
+                </p>
+
+                <div class="big-heart">
+                    💗
+                </div>
+
+                <h3>
+                    Happy Birthday, Ayuk!
+                </h3>
+
+                <p class="from">
+                    — Dari sepupu yang selalu mendoakan yang terbaik untuk ayuk 🤍
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- CONFETTI -->
+    <div id="confetti"></div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Made with 💗 just for you
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
